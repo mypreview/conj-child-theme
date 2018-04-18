@@ -1,8 +1,8 @@
 # Conj-Child
 
-![Conj WordPress Child Theme](screenshot.jpg)
-
 **A blank CONJ child theme for your styling.**
+
+![Conj WordPress Child Theme](screenshot.jpg)
 
 ## Live Demo
 
