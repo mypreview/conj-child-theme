@@ -1,5 +1,7 @@
 # Conj - eCommerce WordPress Child Theme
 
+[![Designed for WooCommerce](https://img.shields.io/badge/Designed%20for-WooCommerce-9a6b95.svg)](https://themeforest.net/item/conj-ecommerce-wordpress-theme/21935639?ref=mypreview) [![Compatible with WPML](https://img.shields.io/badge/Compatible%20with-WPML-308fb0.svg)](https://wpml.org/theme/conj/) [![Stable Version](https://img.shields.io/badge/Stable%20version-1.0.3-666EE8.svg)](https://wp.me/p8930x-8q)
+
 ![CONJ - eCommerce WordPress Theme](conj-ecommerce-wordpress-child-theme.png)
 
 The Conj - eCommerce WordPress Child Theme is a starter blank child theme for MyPreview’s [Conj - eCommerce WordPress Theme](https://themeforest.net/item/conj-ecommerce-wordpress-theme/21935639?ref=mypreview).
