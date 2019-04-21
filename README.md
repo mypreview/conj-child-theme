@@ -1,25 +1,24 @@
-# Conj-Child
+# Conj - eCommerce WordPress Child Theme
 
-**A blank CONJ child theme for your styling.**
+![CONJ - eCommerce WordPress Theme](conj-ecommerce-wordpress-theme.jpg)
 
-![Conj WordPress Child Theme](screenshot.jpg)
+The Conj - eCommerce WordPress Child Theme is a starter blank child theme for MyPreview [Conj - eCommerce WordPress Theme](https://themeforest.net/item/conj-ecommerce-wordpress-theme/21935639?ref=mypreview).
+
+## Installation
+
+* Download the child theme from it's GitHub Repository Release window.
+* Go to **WordPress** > **Appearance** > **Themes** > **Add New**.
+* Click Upload Theme and **Choose File**, then select the theme's `.zip` file. Click Install Now.
+* Click Activate to use your new theme right away.
+
+## Usage
+
+Custom PHP that you write should be added to the child themes `functions.php` file whilst any custom CSS should be added to the child themes `style.min.css` file.
 
 ## Live Demo
 
-Check out the [Live Demo](https://demo.mypreview.one/conj) to visit **CONJ PRO** theme in action.
+Check out the [Live Demo](https://www.conj.ws) to visit the [Conj - eCommerce WordPress Theme](https://themeforest.net/item/conj-ecommerce-wordpress-theme/21935639?ref=mypreview) in action.
 
-## Get the PRO Version
+## Get the Theme
 
-The **CONJ PRO** theme is only available to purchase from [mypreview.one](https://www.mypreview.one/conj.html). :moneybag:
-
-## Get Involved
-
-Want to contribute? Here's the [GitHub development repository](https://github.com/mypreview/conj-lite "GitHub development repository").
-
-## Documentation
-
-Get started [here](https://mypreview.github.io/Conj) with a collection of tutorials that cover the basics.
-
-## Free Support
-
-If you have any question(s) about using theme, please do not hesitate to check out our [support forums](https://support.mypreview.one/t/conj) and start a new discussion for further assistance or clarification.
+This item is only available to purchase from [Themeforest](https://themeforest.net/item/conj-ecommerce-wordpress-theme/21935639?ref=mypreview). :moneybag:
