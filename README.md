@@ -1,6 +1,6 @@
 # Conj - eCommerce WordPress Child Theme
 
-[![Designed for WooCommerce](https://img.shields.io/badge/Designed%20for-WooCommerce-9a6b95.svg)](https://themeforest.net/item/conj-ecommerce-wordpress-theme/21935639?ref=mypreview) [![Compatible with WPML](https://img.shields.io/badge/Compatible%20with-WPML-308fb0.svg)](https://wpml.org/theme/conj/) [![Stable Version](https://img.shields.io/badge/Stable%20version-1.0.3-666EE8.svg)](https://docs.conj.ws/development/child-theme)
+[![Designed for WooCommerce](https://img.shields.io/badge/Designed%20for-WooCommerce-9a6b95.svg)](https://themeforest.net/item/conj-ecommerce-wordpress-theme/21935639?ref=mypreview) [![Compatible with WPML](https://img.shields.io/badge/Compatible%20with-WPML-308fb0.svg)](https://wpml.org/theme/conj/) [![Stable Version](https://img.shields.io/badge/Stable%20version-1.0.4-666EE8.svg)](https://docs.conj.ws/development/child-theme)
 
 ![CONJ - eCommerce WordPress Theme](conj-ecommerce-wordpress-child-theme.png)
 
