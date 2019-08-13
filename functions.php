@@ -1,25 +1,24 @@
 <?php
-// Exit if accessed directly
-if ( !defined( 'ABSPATH' ) ) exit;
+/**
+ * CONJ automatically loads the core CSS even if using a child theme as it is more efficient
+ * than @importing it in the child theme style.min.css file.
+ *
+ * Uncomment the line below if you'd like to disable the CONJ Core CSS.
+ *
+ * If you don't plan to dequeue the CONJ Core CSS you can remove the subsequent line and as well
+ * as the conj_child_theme_dequeue_style() function declaration.
+ */
+//add_action( 'wp_enqueue_scripts', 'conj_child_theme_dequeue_style', 999 );
 
-// Assign the "Conj Child" info to constants.
-$conj_child_theme = wp_get_theme( 'conj' );
-define( 'CONJ_CHILD_THEME_VERSION', $conj_child_theme->get( 'Version' ) );
+/**
+ * Dequeue the CONJ Parent theme core CSS
+ */
+function conj_child_theme_dequeue_style() {
+    wp_dequeue_style( 'conj-styles' );
+    wp_dequeue_style( 'conj-bbpress-styles' );
+    wp_dequeue_style( 'conj-woocommerce-styles' );
+}
 
-// BEGIN ENQUEUE PARENT ACTION
-// Do not modify or remove comment markers above or below:
-if ( ! function_exists( 'conj_child_parent_css' ) ) :
-    function conj_child_parent_css() {
-
-    	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ?  '' : '.min';
-    	$version = ( defined( 'CONJ_THEME_VERSION' ) && CONJ_THEME_VERSION )  ?  CONJ_THEME_VERSION  :  CONJ_CHILD_THEME_VERSION;
-    	$stylesheet_deps = (array) apply_filters( 'conj_vendor_stylesheet_deps', array( 'feather', 'socicon', 'cookieBubble', 'css-devices', 'js-offcanvas', 'simplebar', 'slinky', 'jquery-bugme', 'iziToast', 'flickity' ) );
-
-        wp_enqueue_style( 'conj-styles', trailingslashit( get_template_directory_uri() ) . 'style' . $suffix . '.css', $stylesheet_deps, $version );
-
-    }
-endif;
-
-add_action( 'wp_enqueue_scripts', 'conj_child_parent_css', 10 );
-
-// END ENQUEUE PARENT ACTION
+/**
+ * Note: DO NOT! alter or remove the code above this text and only add your custom PHP functions below this text.
+ */
