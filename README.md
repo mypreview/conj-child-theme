@@ -11,9 +11,9 @@ You don’t have to worry about updates to the parent theme since there is no ne
 ## Installation
 
 * Download the child theme from it's GitHub Repository Release window.
-* Go to **WordPress** > **Appearance** > **Themes** > **Add New**.
-* Click Upload Theme and **Choose File**, then select the theme's `.zip` file. Click Install Now.
-* Click Activate to use your child theme right away.
+* Log into your WordPress website and navigate to **Appearance** » **Themes** » **Add New**.
+* Click **Upload Theme** and **Choose File**, then select the theme's `.zip` file. Click **Install Now**.
+* Click **Activate** to start using your child theme right away.
 
 ## Usage
 
