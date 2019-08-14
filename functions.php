@@ -6,14 +6,14 @@
  * Uncomment the line below if you'd like to disable the CONJ Core CSS.
  *
  * If you don't plan to dequeue the CONJ Core CSS you can remove the subsequent line and as well
- * as the conj_child_theme_dequeue_style() function declaration.
+ * as the conj_child_dequeue_styles() function declaration.
  */
-//add_action( 'wp_enqueue_scripts', 'conj_child_theme_dequeue_style', 999 );
+//add_action( 'wp_enqueue_scripts', 'conj_child_dequeue_styles', 999 );
 
 /**
  * Dequeue the CONJ Parent theme core CSS
  */
-function conj_child_theme_dequeue_style() {
+function conj_child_dequeue_styles() {
     wp_dequeue_style( 'conj-styles' );
     wp_dequeue_style( 'conj-bbpress-styles' );
     wp_dequeue_style( 'conj-woocommerce-styles' );
