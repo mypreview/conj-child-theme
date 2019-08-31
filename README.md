@@ -17,7 +17,7 @@ You don’t have to worry about updates to the parent theme since there is no ne
 
 ## Usage
 
-Custom PHP that you write should be added to the child themes `functions.php` file whilst any custom CSS should be added to the child themes `style.min.css` file.
+Custom PHP that you write should be added to the child themes `functions.php` file whilst any custom CSS should be added to the child themes `style.css` file.
 
 The blank child theme itself has no functionality and if you would like to learn more about child themes for WordPress see this documentation below.
 
